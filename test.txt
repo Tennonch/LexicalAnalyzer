@@ -1,0 +1,16 @@
+#include <stdio.h>
+#define PI 3.14159
+
+int main() {
+    // One line comment
+    /* Multiple line
+       comment */
+    int a = 10;
+    float b = 5.5;
+    char c = 'x';
+    char str[] = "Hello, world!";
+    if (a > 5 && b < 10.0) {
+        a++;
+    }
+    return 0;
+}
